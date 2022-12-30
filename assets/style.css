@@ -1,16 +1,53 @@
 * {
     box-sizing: border-box;
     width: 100%;
-    scroll-behavior: smooth;
+    border: .75em;
+    padding: .50em;
+    margin: 0, auto;
+    font-family: 'Halvetica', Arial, sans-serif;
 }
 
-section {
-    margin: 0px auto;
-    padding: 100px 0%;
+body {
+    background-color: rgba(14, 14, 48, 0.862);
 }
 
-img {
+.header {
+    color:rgba(255, 255, 255, 0.551);
+    font-size: xx-large;
+}
+
+li {
+    display: inline;
+}
+main {
+    color: bisque;
+    font-weight:lighter;
+}
+
+.class {
+    width: 15%;
+}
+.main h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.home img, .projects img {
+    width: 25%;
+}
+
+.welcome {
+    text-align: left;
+}
+
+button {
+    width: 10%;
+    background-color: rgba(14, 14, 48, 0.862);
     display: block;
-    width: 40%;
-    height: 40%;
+}
+
+a:-webkit-any-link {
+    color: rgba(255, 255, 255, 0.791);
+    cursor: hand;
+    text-decoration: none;
 }
