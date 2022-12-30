@@ -1,6 +1,13 @@
-body {
-    background-color: rgb(13, 15, 27);
+
+
+.about {
+    color: blue;
 }
-.main {
-    background-color: rgb(141, 141, 224);
+
+.projects {
+    color: blue;
+}
+
+.contact {
+    color: blue;
 }
