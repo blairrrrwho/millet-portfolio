@@ -1,62 +1,9 @@
-* {
-    box-sizing: border-box;
+
+.welcome {
+    height: 400px;
     width: 100%;
-    border: .25em;
-    padding: .50em;
-    font-family: 'Halvetica', Arial, sans-serif;
-}
-
-body {
-    background-color: rgba(14, 14, 48, 0.862);
-}
-
-.header {
-    color:rgba(255, 255, 255, 0.551);
-    background-color: rgba(0, 0, 0, 0.667);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: none;
-}
-
-header h1 {
-    font-size: 270%;
-    color: rgba(46, 139, 86, 0.845);
-    display: inline;
-}
-header li {
-    display: inline;
-    font-size: 150%;
-    font-weight: bolder;
-}
-
-.text-right {
-    text-align: right;
-}
-
-main {
-    color: bisque;
-    font-weight:lighter;
-}
-
-.main h1 {
-    text-align: center;
-    font-size: 3em;
-}
-
-.home img, .projects img {
-    width: 25%;
-}
-
-
-button {
-    width: 10%;
-    background-color: rgba(14, 14, 48, 0.862);
-    display: block;
-}
-
-a:-webkit-any-link {
-    color: rgba(255, 255, 255, 0.791);
-    cursor: hand;
-    text-decoration: none;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/welcome\ cover.jpg");
+    background-size: cover;
+    background-position: center;
 }
