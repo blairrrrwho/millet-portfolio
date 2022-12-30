@@ -1,9 +1,8 @@
 * {
     box-sizing: border-box;
     width: 100%;
-    border: .75em;
+    border: .25em;
     padding: .50em;
-    margin: 0, auto;
     font-family: 'Halvetica', Arial, sans-serif;
 }
 
@@ -13,20 +12,33 @@ body {
 
 .header {
     color:rgba(255, 255, 255, 0.551);
-    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.667);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: none;
 }
 
-li {
+header h1 {
+    font-size: 270%;
+    color: rgba(46, 139, 86, 0.845);
     display: inline;
 }
+header li {
+    display: inline;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.text-right {
+    text-align: right;
+}
+
 main {
     color: bisque;
     font-weight:lighter;
 }
 
-.class {
-    width: 15%;
-}
 .main h1 {
     text-align: center;
     font-size: 3em;
@@ -36,9 +48,6 @@ main {
     width: 25%;
 }
 
-.welcome {
-    text-align: left;
-}
 
 button {
     width: 10%;
