@@ -1,15 +1,13 @@
 :root {
     --navy: rgba(17, 17, 111, 0.805);
     --olive: rgba(128, 128, 0, 0.482);
+    --welcome-gray: rgba(255, 255, 255, 0.634);
 }
 * {
     box-sizing: border-box;
-    width: 100%;
     padding: 0;
     margin: 0;
 }
-
-
 
 body {
     background-color: var(--olive);
@@ -18,17 +16,42 @@ body {
 
 header {
     color: var(--navy);
-    font-size: 177%;
+    font-size: 170%;
+    padding: 1%;
+    margin: 1%
 }
 
-nav a {
+header h1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 300%;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 2.5em;
+}
+
+header nav a {
     color: var(--navy);
     text-decoration: none;
     font-weight: bolder;
+    font-size: larger;
 }
 
 .button a{
-    color:rgba(208, 210, 240, 0.925);
+    color:rgb(208, 210, 240);
     text-decoration: none;
     font-weight: 600;
 }
@@ -43,23 +66,56 @@ nav a {
     text-decoration: none;
     display: inline-block;
     transition-duration: 0.4s;
+    cursor: hand;
   }
 
 .button:hover {
     background-color: var(--navy);
   }
 
-
-
-
-
 .welcome {
     background-image: url("/assets/images/welcome\ cover.jpg");
-    height: 800px;
+    height: 500px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 2em;
     background-size: cover;
     background-position: center;
-    color:rgba(255, 255, 255, 0.634)
+    color:var(--welcome-gray);
+    font-size: 327%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 
 }
+
+.about h1 {
+    font-size: 240%;
+    text-align: center;
+    margin-top: 2em;
+    padding: 0;
+}
+.aboutme {
+    background-color:bisque;
+    padding: 4em;
+    margin: 2em 8em 8em 8em;
+    width: 50%;
+}
+
+figure img {
+    width: 20%;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: var(--navy);
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
