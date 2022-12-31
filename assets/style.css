@@ -57,16 +57,13 @@ header nav a {
 }
 
 .button {
-    background-color: #0a2219bd;
+    background-color: #245644bd;
     border: solid;
     color: var(--navy);
     padding: .50em .20em;
     width: 11%;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     transition-duration: 0.4s;
-    cursor: hand;
   }
 
 .button:hover {
@@ -75,7 +72,7 @@ header nav a {
 
 .welcome {
     background-image: url("/assets/images/welcome\ cover.jpg");
-    height: 500px;
+    height: 700px;
     width: 100%;
     margin-bottom: 2em;
     background-size: cover;
@@ -83,16 +80,22 @@ header nav a {
     color:var(--welcome-gray);
     font-size: 327%;
     text-align: center;
-    display: flex;
-    justify-content: center;
+}
+
+.welcome h1 {
+    font-size: 270%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .about h1, .projects h1, .contact h1 {
-    font-size: 240%;
+    font-size: 300%;
     text-align: center;
-    margin-top: 2em;
-    padding: 0;
+    margin-top: 4em;
+    margin-bottom: 1em;
 }
+
 .aboutme {
     background-color:bisque;
     padding: 4em;
@@ -158,5 +161,18 @@ span {
     font-weight: 900;
 }
 
+.contact ul {
+    text-align: center;
+    font-size: 150%;
+}
 
+.contact li {
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
 
+footer {
+    padding: 1em;
+    margin-top: 3em;;
+    text-align: right;
+}
