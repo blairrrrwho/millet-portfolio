@@ -80,6 +80,10 @@ header nav a {
     color:var(--welcome-gray);
     font-size: 327%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 4;
 }
 
 .welcome h1 {
@@ -99,12 +103,22 @@ header nav a {
 .aboutme {
     background-color:bisque;
     padding: 4em;
-    margin: 2em 8em 8em 8em;
-    width: 50%;
+    margin: 0em 2em 2em 4em;
+    width: 40%;
+    display: inline-block;
 }
+
+.about .figure {
+    margin: 2em 4em 2em 4em;
+    display: inline-block;
+    max-width: 5px;;
+}
+
+
 .container h1 {
     padding: 1em;
 }
+
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -175,4 +189,9 @@ footer {
     padding: 1em;
     margin-top: 3em;;
     text-align: right;
+}
+
+
+@media screen and (max-width: 480px) {
+    
 }
