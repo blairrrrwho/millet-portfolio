@@ -103,6 +103,7 @@ header nav a {
 
 figure img {
     width: 20%;
+    display: inline block;
 }
 
 .contact li a {
