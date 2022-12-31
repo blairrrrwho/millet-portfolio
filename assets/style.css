@@ -1,9 +1,65 @@
+:root {
+    --navy: rgba(17, 17, 111, 0.805);
+    --olive: rgba(128, 128, 0, 0.482);
+}
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: var(--olive);
+    font-family: 'Cambria', Cochin, Georgia, sans-serif, serif;
+}
+
+header {
+    color: var(--navy);
+    font-size: 177%;
+}
+
+nav a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.button a{
+    color:rgba(208, 210, 240, 0.925);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button {
+    background-color: #0a2219bd;
+    border: solid;
+    color: var(--navy);
+    padding: .50em .20em;
+    width: 11%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+  }
+
+.button:hover {
+    background-color: var(--navy);
+  }
+
+
+
+
 
 .welcome {
-    height: 400px;
+    background-image: url("/assets/images/welcome\ cover.jpg");
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/assets/images/welcome\ cover.jpg");
     background-size: cover;
     background-position: center;
+    color:rgba(255, 255, 255, 0.634)
+
 }
