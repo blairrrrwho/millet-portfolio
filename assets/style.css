@@ -50,20 +50,22 @@ header nav a {
     font-size: larger;
 }
 
-.button a{
+button a{
     color:rgb(208, 210, 240);
     text-decoration: none;
     font-weight: 600;
+    font-size: medium;
 }
 
 button {
     background-color: #245644bd;
     border: solid;
     color: var(--navy);
-    padding: .50em .20em;
+    padding: 1em 1em;
     width: 11%;
     text-align: center;
     transition-duration: 0.4s;
+    /* float:right; */
   }
 
 button:hover {
@@ -80,7 +82,6 @@ button:hover {
     background-image: url("/assets/images/welcome\ cover.jpg");
     height: auto;
     width: 100%;
-    margin-bottom: 2em;
     background-size: cover;
     background-position: center;
     color:var(--welcome-gray);
@@ -138,14 +139,20 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     list-style-type: none;
 }
 
 .image-gallery > li {
-    flex-basis: 350px;
+    flex-basis: 400px;
     position: relative;
     cursor: pointer;
+    height: auto;
+}
+
+.image-gallery .app1 {
+    flex-basis: 800px;
 }
 
 .overlay {
@@ -158,14 +165,14 @@ button:hover {
     transform: scale(0);
     transition: all 0.2s 0.1s ease-in-out;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .image-gallery li:hover .overlay {
-    transform: scale(1);
+    transform: scale(1.5);
 }
 
 span {
