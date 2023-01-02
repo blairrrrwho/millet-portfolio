@@ -19,6 +19,7 @@ header {
     font-size: 170%;
     padding: 1%;
     margin: 1%;
+   
 }
 
 header h1 {
@@ -31,7 +32,6 @@ header h1 {
 header nav {
     display: flex;
     justify-content: flex-end;
-    flex-wrap: wrap;
 }
 
 header nav ul {
@@ -54,7 +54,7 @@ button a{
     color:rgb(208, 210, 240);
     text-decoration: none;
     font-weight: 600;
-    font-size: medium;
+    font-size: small;
 }
 
 button {
@@ -62,7 +62,6 @@ button {
     border: solid;
     color: var(--navy);
     padding: 1em 1em;
-    width: 11%;
     text-align: center;
     transition-duration: 0.4s;
     /* float:right; */
@@ -75,6 +74,7 @@ button:hover {
 .button {
     display:flex;
     justify-content: flex-end;
+    flex-direction: row;
     padding-right: 2em;
 }
 
@@ -85,24 +85,22 @@ button:hover {
     background-size: cover;
     background-position: center;
     color:var(--welcome-gray);
-    font-size: 327%;
+    font-size: 227%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-shrink: 10;
+    flex-direction: row;
 }
 
 .welcome h1 {
-    font-size: 270%;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
-}
-
-.about {
     display: flex;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
+    justify-content:center;
+
 }
 
 .about h1, .projects h1, .contact h1 {
@@ -114,14 +112,8 @@ button:hover {
     flex-flow: column wrap;
 }
 
-.aboutme {
-    background-color:bisque;
-    padding: 3em;
-    margin: 0em 2em 2em 2em;
-}
-
 .aboutme .content {
-    width: 40%;
+    width: 60%;
     height: auto;
     display: inline-block;
     font-size: large;
@@ -130,14 +122,31 @@ button:hover {
 
 .aboutme img{
     display: inline-block;
-    width: 50%;
+    width: 60%;
     height: auto;
-    margin-left: 6%;
+    padding: 2%;
+
+}
+
+.aboutme {
+    background-color:bisque;
+    padding: 3em;
+    margin: 0em 4em 2em 4em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    margin-bottom: 2em;
 }
 
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -214,11 +223,25 @@ footer {
     display: flex;
     flex-flow: column wrap;
     align-content: flex-end;
-
 }
 
-@media screen and (max-width: 768px) {
-    html, nav {
-        flex-direction: column;
+/* Mobile phone */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 130%;
+    }
+    nav {
+        font-size: 70%;
+    }
+    .welcome h1 {
+        font-size: 80%;
+    }
+    main {
+        font-size: 40%;
     }
 }
+
+/* Tablets */
+/* Small screens/laptops */
+/* Desktops */
+/* Large screens, TVs, and bigger */
