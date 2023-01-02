@@ -72,7 +72,7 @@ header nav a {
 
 .welcome {
     background-image: url("/assets/images/welcome\ cover.jpg");
-    height: 700px;
+    height: auto;
     width: 100%;
     margin-bottom: 2em;
     background-size: cover;
@@ -96,28 +96,35 @@ header nav a {
 .about {
     display: flex;
     flex-flow:column wrap;
-    
+
 }
 
 .about h1, .projects h1, .contact h1 {
-    font-size: 300%;
+    font-size: 400%;
     text-align: center;
-    margin-top: 4em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 
 .aboutme {
     background-color:bisque;
-    padding: 4em;
-    margin: 0em 2em 2em 4em;
-    width: 40%;
-    display: inline-block;
+    padding: 3em;
+    margin: 0em 2em 4em 2em;
 }
 
-.about .figure {
-    margin: 2em 4em 2em 4em;
+.aboutme .content {
+    width: 40%;
+    height: auto;
     display: inline-block;
-    max-width: 5px;;
+    font-size: large;
+    padding: 2%;
+}
+
+.aboutme img{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin-left: 6%;
 }
 
 .image-gallery {
