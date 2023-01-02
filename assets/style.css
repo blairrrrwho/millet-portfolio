@@ -16,7 +16,7 @@ body {
 
 header {
     color: var(--navy);
-    font-size: 190%;
+    font-size: 150%;
     padding: 1%;
     margin: 1%;
 }
@@ -31,6 +31,7 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 80%;
 }
 
 header nav ul li {
@@ -57,7 +58,7 @@ header nav a:hover {
     background-size: cover;
     background-position: center;
     color:var(--welcome-gray);
-    font-size: 300%;
+    font-size: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -87,8 +88,7 @@ button {
     padding: 1em 1em;
     text-align: center;
     transition-duration: 0.4s;
-    /* float:right; */
-  }
+}
 
 button:hover {
     background-color: var(--navy);
@@ -98,38 +98,23 @@ button:hover {
     display:flex;
     justify-content: flex-end;
     flex-direction: row;
-    padding-right: 2em;
+    padding-right: 1em;
 }
 
 .about h1, .projects h1, .contact h1 {
-    font-size: 400%;
+    font-size: 200%;
     text-align: center;
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     display: flex;
     flex-flow: column wrap;
-}
-
-.aboutme .content {
-    width: 60%;
-    height: auto;
-    display: inline-block;
-    font-size: large;
-    padding: 2%;
-}
-
-.aboutme img{
-    display: inline-block;
-    width: 60%;
-    height: auto;
-    padding: 2%;
-
+    justify-content: center;
 }
 
 .aboutme {
     background-color:bisque;
-    padding: 3em;
-    margin: 0em 4em 2em 4em;
+    padding: 1em;
+    margin: 1em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -139,6 +124,22 @@ button:hover {
 
 .container {
     margin-bottom: 2em;
+}
+
+.aboutme .content {
+    height: auto;
+    display: inline-block;
+    font-size: 80%;
+    padding: 2%;
+}
+
+.aboutme img{
+    display: inline-block;;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .image-gallery {
@@ -223,23 +224,13 @@ footer {
     align-content: flex-end;
 }
 
-/* Mobile phone */
-@media screen and (max-width: 480px) {
-    header h1 {
-        font-size: 130%;
-    }
-    nav {
-        font-size: 70%;
-    }
-    .welcome h1 {
-        font-size: 80%;
-    }
-    main {
-        font-size: 40%;
-    }
-}
 
+/* 
+/* Mobile phone */
 /* Tablets */
 /* Small screens/laptops */
 /* Desktops */
 /* Large screens, TVs, and bigger */
+
+
+*/
