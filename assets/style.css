@@ -281,11 +281,11 @@ footer {
     }
 
     .image-gallery > li {
-        flex-basis: 350px;
+        flex-basis: 340px;
         position: relative;
     }
     .image-gallery .app1 {
-        flex-basis: 700px;
+        flex-basis: 750px;
     }
     .contact ul {
         font-size: 140%;
