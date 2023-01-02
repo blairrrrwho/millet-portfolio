@@ -124,6 +124,8 @@ button:hover {
 
 .container {
     margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .aboutme .content {
@@ -153,14 +155,14 @@ button:hover {
 }
 
 .image-gallery > li {
-    flex-basis: 400px;
+    flex-basis: 240px;
     position: relative;
     cursor: pointer;
     height: auto;
 }
 
 .image-gallery .app1 {
-    flex-basis: 800px;
+    flex-basis: 480px;
 }
 
 .overlay {
@@ -224,13 +226,72 @@ footer {
     align-content: flex-end;
 }
 
+/* For when the screen becomes bigger than a mobile phone -- optimized for tablets */
+@media screen and (min-width:480px) {
+    header h1 {
+        justify-content: flex-start;
+    }
+    header nav {
+        justify-content: flex-end;
+    }
+    header {
+        font-size: 250%;
+    }
+    .welcome {
+        font-size: 200%;
+    }
+    .about h1, .projects h1, .contact h1 {
+        font-size: 250%;
+    }
+    .aboutme .content {
+        font-size: 100%;
+    }
+    .image-gallery > li {
+        flex-basis: 240px;
+        position: relative;
+    }
+    .image-gallery .app1 {
+        flex-basis: 480px;
+    }
+}
 
-/* 
-/* Mobile phone */
-/* Tablets */
+/* For when the screen becomes bigger than a tablet --optimized for laptops */
+@media screen and (min-width:768px) {
+    header {
+        font-size: 200%;
+    }
+    .welcome {
+        font-size: 300%;
+    }
+    .about h1, .projects h1, .contact h1 {
+        font-size: 300%;
+    }
+    .aboutme {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .aboutme .content {
+        font-size: 80%;
+        width: 40%;
+    }
+
+    .aboutme img {
+        width: 40%;
+    }
+
+    .image-gallery > li {
+        flex-basis: 350px;
+        position: relative;
+    }
+    .image-gallery .app1 {
+        flex-basis: 700px;
+    }
+    .contact ul {
+        font-size: 140%;
+}
+}
+
 /* Small screens/laptops */
 /* Desktops */
 /* Large screens, TVs, and bigger */
-
-
-*/
