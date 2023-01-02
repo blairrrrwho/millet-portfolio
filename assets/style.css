@@ -16,38 +16,61 @@ body {
 
 header {
     color: var(--navy);
-    font-size: 170%;
+    font-size: 190%;
     padding: 1%;
     margin: 1%;
-   
 }
 
 header h1 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    font-size: 300%;
 }
 
 header nav {
     display: flex;
-    justify-content: flex-end;
-}
-
-header nav ul {
-    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 header nav a {
     color: var(--navy);
     text-decoration: none;
     font-weight: bolder;
-    font-size: larger;
+}
+
+header nav a:hover {
+    background-color: var(--welcome-gray);
+    transition-duration: 0.4s;
+}
+
+.welcome {
+    background-image: url("/assets/images/welcome\ cover.jpg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color:var(--welcome-gray);
+    font-size: 300%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-content: center;
 }
 
 button a{
@@ -76,31 +99,6 @@ button:hover {
     justify-content: flex-end;
     flex-direction: row;
     padding-right: 2em;
-}
-
-.welcome {
-    background-image: url("/assets/images/welcome\ cover.jpg");
-    height: auto;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    color:var(--welcome-gray);
-    font-size: 227%;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.welcome h1 {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content:center;
-
 }
 
 .about h1, .projects h1, .contact h1 {
