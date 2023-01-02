@@ -56,7 +56,7 @@ header nav a {
     font-weight: 600;
 }
 
-.button {
+button {
     background-color: #245644bd;
     border: solid;
     color: var(--navy);
@@ -66,9 +66,15 @@ header nav a {
     transition-duration: 0.4s;
   }
 
-.button:hover {
+button:hover {
     background-color: var(--navy);
   }
+
+.button {
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 2em;
+}
 
 .welcome {
     background-image: url("/assets/images/welcome\ cover.jpg");
@@ -96,7 +102,6 @@ header nav a {
 .about {
     display: flex;
     flex-flow:column wrap;
-
 }
 
 .about h1, .projects h1, .contact h1 {
@@ -104,12 +109,14 @@ header nav a {
     text-align: center;
     margin-top: 2em;
     margin-bottom: 1em;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .aboutme {
     background-color:bisque;
     padding: 3em;
-    margin: 0em 2em 4em 2em;
+    margin: 0em 2em 2em 2em;
 }
 
 .aboutme .content {
