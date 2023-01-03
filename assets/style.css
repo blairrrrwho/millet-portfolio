@@ -63,6 +63,7 @@ header nav a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    object-fit: contain;
 }
 
 .welcome h1 {
@@ -267,8 +268,11 @@ footer {
         font-size: 300%;
     }
     .aboutme {
-        margin-left: 4em;
-        margin-right: 4em;
+        margin-left: 2em;
+        margin-right: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .aboutme .content {
@@ -278,6 +282,9 @@ footer {
 
     .aboutme img {
         width: 40%;
+        object-fit: contain;
+        padding: 0;
+        margin: 0;
     }
 
     .image-gallery > li {
@@ -290,6 +297,19 @@ footer {
     .contact ul {
         font-size: 140%;
 }
+}
+
+@media screen and (min-width:1020px) {
+    .aboutme .content {
+        font-size: 90%;
+        width: 40%;
+    }
+    .aboutme img {
+        width: 40%;
+        object-fit: contain;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
 }
 
 /* Small screens/laptops */
