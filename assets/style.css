@@ -211,10 +211,11 @@ span {
 .contact ul {
     text-align: center;
     font-size: 150%;
+    padding-bottom: 2%;
 }
 
 .contact li {
-    padding-top: 1em;
+    padding-top: .5em;
     padding-bottom: .5em;
 }
 
