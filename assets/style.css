@@ -1,8 +1,10 @@
 :root {
-    --navy: rgba(17, 17, 111, 0.805);
-    --olive: rgba(128, 128, 0, 0.482);
+    --navy: rgba(27, 27, 93, 0.95);
+    --olive: rgba(79, 109, 94, 0.715);
     --welcome-gray: rgba(255, 255, 255, 0.634);
+    --green: #163f30bd;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -83,7 +85,7 @@ button a{
 }
 
 button {
-    background-color: #245644bd;
+    background-color: var(--green);
     border: solid;
     color: var(--navy);
     padding: 1em 1em;
