@@ -308,9 +308,14 @@ footer {
 }
 
 @media screen and (min-width:1020px) {
+    .welcome figure{
+        object-fit: contain;
+    }
     .aboutme .content {
-        font-size: 90%;
+        font-size: 100%;
         width: 40%;
+        padding-top: 3em;
+        padding-bottom: 3em;
     }
     .aboutme img {
         width: 40%;
@@ -319,7 +324,3 @@ footer {
         padding-bottom: 2em;
     }
 }
-
-/* Small screens/laptops */
-/* Desktops */
-/* Large screens, TVs, and bigger */
