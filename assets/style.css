@@ -43,19 +43,18 @@ header nav ul li {
     margin-right: 1em;
 }
 
-header nav a {
+.header nav a {
     color: var(--navy);
     text-decoration: none;
     font-weight: bolder;
 }
 
-header nav a:hover {
-    background-color: var(--welcome-gray);
+.header nav a:hover {
+    background-color: var(--olive);
     transition-duration: 0.7s;
-    border-radius: 5px;
+    border-radius: 4px;
+    padding: 0.5em;
 }
-
-
 
 .welcome {
     background-image: url("/assets/images/welcome\ cover.jpg");
@@ -81,25 +80,27 @@ header nav a:hover {
     align-content: center;
 }
 
-button a{
-    color:rgb(208, 210, 240);
+.button a:hover, a:visited, a:active {
     text-decoration: none;
-    font-weight: 600;
-    font-size: small;
-}
-
-button {
-    background-color: var(--green);
-    border: solid;
-    color: var(--navy);
-    padding: 1em 1em;
-    text-align: center;
-    transition-duration: 0.4s;
+    color: var(--welcome-gray);
 }
 
 button:hover {
     background-color: var(--navy);
   }
+  
+button {
+    background-color: var(--green);
+    border: solid;
+    border-color: var(--navy);
+    color: var(--welcome-gray);
+    font-weight: bold;
+    padding: 1em 1em;
+    text-align: center;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    border-radius: 4px;
+}
 
 .button {
     display:flex;
