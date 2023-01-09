@@ -57,7 +57,7 @@ header nav ul li {
 }
 
 .welcome {
-    background-image: url("/assets/images/welcome\ cover.jpg");
+    background-image: url("./assets/images/welcome\ cover.jpg");
     height: auto;
     width: 100%;
     background-size: cover;
