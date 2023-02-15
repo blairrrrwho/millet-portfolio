@@ -18,8 +18,10 @@ It's a work in progress and will have many more developments in the future!
 Future employers will be able to utilize this webpage for a project reference and a skills guide -- it will display the current apps I've developed and showcase the skills I've gained along the way. Each app will be clickable and bring you to the app, and the future skills page will explain the current skills I've mastered and those in progress. 
 Finally, they will be able to contact me in various ways as shown as the bottom of the page. 
 
-## Deployed Link
-https://blairrrrwho.github.io/portfolio-blair/ 
+## Deployment
+Live URL: <a href="https://blairrrrwho.github.io/portfolio-blair/">blairrrrwho - the portfolio</a>
+
+
 
 ![Screenshot of Webpage](assets/images/screenshot.png)
 
